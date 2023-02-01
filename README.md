@@ -1,6 +1,6 @@
 # A Minimal Portfolio
 
-This portfolio was built by using React and Tailwind CSS
+Live Demo Link: https://shahriartamjid.vercel.app
 
 ### This portfolio was built by using the following tools
 
