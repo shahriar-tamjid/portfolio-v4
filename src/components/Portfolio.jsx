@@ -2,6 +2,7 @@ import React from "react";
 import disney_plus from "../assets/portfolio/disney_plus.png";
 import fitness_app from "../assets/portfolio/fitness_app.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
+import nft_marketplace from "../assets/portfolio/nft_marketplace.png";
 
 const Portfolio = () => {
   // List the projects inside the array with appropriate properties
@@ -23,6 +24,12 @@ const Portfolio = () => {
       src: ecommerce,
       demo: "https://ecommerce-sanity-beige.vercel.app/",
       code: "https://github.com/shahriar-tamjid/ecommerce_sanity",
+    },
+    {
+      id: 4,
+      src: nft_marketplace,
+      demo: "https://shahriar-nft-marketplace.netlify.app/",
+      code: "https://github.com/shahriar-tamjid/nft-marketplace",
     },
   ];
 
