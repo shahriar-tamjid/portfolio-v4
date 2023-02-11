@@ -12,14 +12,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* ================ Job Title ================ */}
-          <h2 className="text-4xl font-bold text-white">Developer & Analyst</h2>
+          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">{`<Developer & Analyst />`}</h2>
 
           {/* ================ Bio ================ */}
-          <p className="text-white py-4 max-w-md">
+          <p className="text-white py-4 ml-2 mr-2 max-w-md">
             I'm a Software Developer and a Data Analyst. Proficient in building
-            web apps by using the MERN stack and ASP.NET. Have a strong
-            foundation in SQL and Python. Drawing insights from data is
-            something I really enjoy!
+            web apps by using the MERN stack. Have a strong foundation in SQL
+            and Python. Drawing insights from data is something I really enjoy!
           </p>
 
           <div>
@@ -41,7 +40,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl ml-10 mb-10 mr-10 w-2/3 md:w-[400px]"
           />
         </div>
       </div>
