@@ -13,7 +13,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:shahriar.tamjid@outlook.com",
+      href: "mailto:shahriartamjid@gmail.com",
       style: "rounded-tr-md",
     },
     // ============== LinkedIn ============== \\

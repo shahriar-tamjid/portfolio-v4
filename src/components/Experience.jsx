@@ -1,22 +1,22 @@
 import React from "react";
 
-import python from "../assets/python.png";
 import javascript from "../assets/javascript.png";
 import typescript from "../assets/typescript.png";
-import php from "../assets/php.png";
+import python from "../assets/python.png";
 import reactImage from "../assets/react.png";
+import nextjs from "../assets/nextjs.png";
 import node from "../assets/node.png";
-import sqlserver from "../assets/sqlserver.png";
-import powerbi from "../assets/powerbi.png";
+import sass from "../assets/sass.png";
+import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
   // List the tools inside of the array with appropriate properties
   const techs = [
     {
       id: 1,
-      src: python,
-      title: "Python",
-      style: "shadow-blue-600",
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-400",
     },
     {
       id: 2,
@@ -26,39 +26,39 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: typescript,
-      title: "TypeScript",
-      style: "shadow-blue-400",
+      src: python,
+      title: "Python",
+      style: "shadow-blue-600",
     },
     {
       id: 4,
-      src: php,
-      title: "PHP",
-      style: "shadow-purple-300",
+      src: reactImage,
+      title: "React",
+      style: "shadow-teal-500",
     },
     {
       id: 5,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: nextjs,
+      title: "Next.JS",
+      style: "shadow-gray-300",
     },
     {
       id: 6,
       src: node,
-      title: "Node.js",
+      title: "Node.JS",
       style: "shadow-green-400",
     },
     {
       id: 7,
-      src: sqlserver,
-      title: "Microsoft SQL Server",
-      style: "shadow-gray-400",
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-500",
     },
     {
       id: 8,
-      src: powerbi,
-      title: "Microsoft Power BI",
-      style: "shadow-yellow-500",
+      src: tailwind,
+      title: "Tailwind CSS",
+      style: "shadow-cyan-500",
     },
   ];
 

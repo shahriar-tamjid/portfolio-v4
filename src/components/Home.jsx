@@ -12,13 +12,15 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* ================ Job Title ================ */}
-          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">{`<Developer & Analyst />`}</h2>
+          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">{`<Front-End Developer />`}</h2>
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">
-            I'm a Software Developer and a Data Analyst. Proficient in building
-            web apps by using the MERN stack. Have a strong foundation in SQL
-            and Python. Drawing insights from data is something I really enjoy!
+            I'm Shahriar Tamjid, a front-end developer specializing in React and
+            React Native. With 3 years of programming experience, I excel at
+            transforming UI designs into seamless and intuitive applications. I
+            am committed to delivering exceptional results from responsive
+            websites to dynamic web and mobile apps.
           </p>
 
           <div>
