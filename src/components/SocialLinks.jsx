@@ -54,7 +54,7 @@ const SocialLinks = () => {
           Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://instagram.com/shahriar_develops/",
+      href: "https://instagram.com/shahriar.xlsx/",
     },
     // ============== CV ============== \\
     {
@@ -64,7 +64,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Shahriar_Tamjid_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

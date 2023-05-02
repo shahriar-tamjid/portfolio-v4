@@ -1,28 +1,29 @@
 import React from "react";
 
+import excel from "../assets/excel.png";
+import mysql from "../assets/mysql.png";
+import wordpress from "../assets/wordpress.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import typescript from "../assets/typescript.png";
 import python from "../assets/python.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import node from "../assets/node.png";
-import sass from "../assets/sass.png";
-import tailwind from "../assets/tailwind.png";
+
 
 const Experience = () => {
   // List the tools inside of the array with appropriate properties
   const techs = [
     {
       id: 1,
-      src: typescript,
-      title: "TypeScript",
-      style: "shadow-blue-400",
+      src: excel,
+      title: "Microsoft Excel",
+      style: "shadow-green-500",
     },
     {
       id: 2,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-orange-500",
     },
     {
       id: 3,
@@ -32,34 +33,34 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-teal-500",
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
     {
       id: 5,
-      src: nextjs,
-      title: "Next.JS",
-      style: "shadow-gray-300",
+      src: reactImage,
+      title: "React.JS",
+      style: "shadow-teal-500",
     },
     {
       id: 6,
-      src: node,
-      title: "Node.JS",
-      style: "shadow-green-400",
+      src: wordpress,
+      title: "WordPress",
+      style: "shadow-cyan-500",
     },
     {
       id: 7,
-      src: sass,
-      title: "Sass",
-      style: "shadow-pink-500",
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-400",
     },
     {
       id: 8,
-      src: tailwind,
-      title: "Tailwind CSS",
-      style: "shadow-cyan-500",
-    },
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-400",
+    }
   ];
 
   return (

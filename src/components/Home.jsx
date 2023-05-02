@@ -12,15 +12,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* ================ Job Title ================ */}
-          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">{`<Front-End Developer />`}</h2>
+          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">Data Analyst</h2>
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">
-            I'm Shahriar Tamjid, a front-end developer specializing in React and
-            React Native. With 3 years of programming experience, I excel at
-            transforming UI designs into seamless and intuitive applications. I
-            am committed to delivering exceptional results from responsive
-            websites to dynamic web and mobile apps.
+            As an aspiring Data Analyst with a passion for Excel modelling, data analysis, and data visualization, I bring a unique skillset to the table. With a solid understanding of machine learning modelling, I am able to combine my analytical and technical abilities to produce powerful insights from complex data sets. <br /> <br />
+
+            In addition to my data science expertise, I also possess strong web development skills. With experience in both frontend and backend development, I am adept at building web-based applications that are responsive, scalable, and user-friendly.
           </p>
 
           <div>
