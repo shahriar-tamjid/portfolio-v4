@@ -16,9 +16,7 @@ const Home = () => {
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">
-            As an aspiring Data Analyst with a passion for Excel modelling, data analysis, and data visualization, I bring a unique skillset to the table. With a solid understanding of machine learning modelling, I am able to combine my analytical and technical abilities to produce powerful insights from complex data sets. <br /> <br />
-
-            In addition to my data science expertise, I also possess strong web development skills. With experience in both frontend and backend development, I am adept at building web-based applications that are responsive, scalable, and user-friendly.
+            As an aspiring Data Analyst with a passion for Excel modelling, data analysis, and data visualization, I bring a unique skillset to the table. With a solid understanding of machine learning modelling, I am able to combine my analytical and technical abilities to produce powerful insights from complex data sets. In addition to my data science expertise, I also possess strong web development skills.
           </p>
 
           <div>
