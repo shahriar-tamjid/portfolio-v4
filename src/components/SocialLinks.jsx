@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -55,18 +54,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://instagram.com/shahriar.xlsx/",
-    },
-    // ============== CV ============== \\
-    {
-      id: 6,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/Shahriar_Tamjid_Resume.pdf",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 

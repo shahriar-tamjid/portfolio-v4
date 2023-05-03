@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/profile.png"; // Update this path to change the profile pic
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
             As an aspiring Data Analyst with a passion for Excel modelling, data analysis, and data visualization, I bring a unique skillset to the table. With a solid understanding of machine learning modelling, I am able to combine my analytical and technical abilities to produce powerful insights from complex data sets. In addition to my data science expertise, I also possess strong web development skills.
           </p>
 
-          <div>
+          <div className="flex space-x-5">
             <Link
               to="portfolio"
               smooth
@@ -31,6 +32,19 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            {/* ==================== Resume ==================== */}
+            <a
+              href="/Shahriar_Tamjid_Resume.pdf"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+            >
+              My Resume
+              <span>
+                <BsFillPersonLinesFill size={20} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
 
