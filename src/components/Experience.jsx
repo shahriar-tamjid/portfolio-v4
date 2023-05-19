@@ -1,12 +1,10 @@
 import React from "react";
 
 import excel from "../assets/excel.png";
-import mysql from "../assets/mysql.png";
-import wordpress from "../assets/wordpress.png";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
+import sql from "../assets/sql.png";
 import python from "../assets/python.png";
+import javascript from "../assets/javascript.png";
+import php from "../assets/php.png";
 import reactImage from "../assets/react.png";
 
 
@@ -21,9 +19,9 @@ const Experience = () => {
     },
     {
       id: 2,
-      src: mysql,
-      title: "MySQL",
-      style: "shadow-orange-500",
+      src: sql,
+      title: "SQL",
+      style: "shadow-cyan-500",
     },
     {
       id: 3,
@@ -39,28 +37,16 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: php,
+      title: "PHP",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 6,
       src: reactImage,
       title: "React.JS",
       style: "shadow-teal-500",
     },
-    {
-      id: 6,
-      src: wordpress,
-      title: "WordPress",
-      style: "shadow-cyan-500",
-    },
-    {
-      id: 7,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-400",
-    },
-    {
-      id: 8,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-400",
-    }
   ];
 
   return (
