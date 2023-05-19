@@ -14,7 +14,7 @@ const Experience = () => {
     {
       id: 1,
       src: excel,
-      title: "Microsoft Excel",
+      title: "Excel",
       style: "shadow-green-500",
     },
     {
@@ -44,7 +44,7 @@ const Experience = () => {
     {
       id: 6,
       src: reactImage,
-      title: "React.JS",
+      title: "React",
       style: "shadow-teal-500",
     },
   ];
