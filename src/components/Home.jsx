@@ -13,7 +13,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* ================ Job Title ================ */}
-          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">Data Analyst</h2>
+          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">Analyst &amp; Developer</h2>
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">

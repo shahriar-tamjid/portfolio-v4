@@ -44,16 +44,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://twitter.com/ShahriarSpeaks",
-    },
-    // ============== Instagram ============== \\
-    {
-      id: 5,
-      child: (
-        <>
-          Instagram <FaInstagram size={30} />
-        </>
-      ),
-      href: "https://instagram.com/shahriar.xlsx/",
       style: "rounded-br-md",
     },
   ];
