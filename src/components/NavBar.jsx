@@ -12,14 +12,18 @@ const NavBar = () => {
     },
     {
       id: 2,
-      link: "portfolio",
-    },
-    {
-      id: 3,
       link: "experience",
     },
     {
+      id: 3,
+      link: "projects",
+    },
+    {
       id: 4,
+      link: "skills",
+    },
+    {
+      id: 5,
       link: "contact",
     },
   ];
@@ -28,7 +32,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
         <h1 className="text-4xl ml-2 mt-4 mr-2 mb-4 font-bold text-white">
-          Shahriar
+          Shahriar Tamjid
         </h1>
       </div>
 

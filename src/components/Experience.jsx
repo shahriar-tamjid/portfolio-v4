@@ -1,21 +1,20 @@
 import React from "react";
 
-import excel from "../assets/excel.png";
+import node from "../assets/node.png";
 import sql from "../assets/sql.png";
 import python from "../assets/python.png";
 import javascript from "../assets/javascript.png";
-import php from "../assets/php.png";
+import nextjs from "../assets/nextjs.png";
 import reactImage from "../assets/react.png";
-
 
 const Experience = () => {
   // List the tools inside of the array with appropriate properties
   const techs = [
     {
       id: 1,
-      src: excel,
-      title: "Excel",
-      style: "shadow-green-500",
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
     {
       id: 2,
@@ -31,33 +30,33 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 5,
-      src: php,
-      title: "PHP",
-      style: "shadow-purple-400",
-    },
-    {
-      id: 6,
       src: reactImage,
       title: "React",
       style: "shadow-teal-500",
+    },
+    {
+      id: 5,
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-400",
+    },
+    {
+      id: 6,
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-gray-400",
     },
   ];
 
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl ml-2 mr-2 mt-5 font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Skills
           </p>
           <p className="py-6 ml-2 mr-2">
             These are the technologies I've worked with

@@ -34,18 +34,19 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/shahriar-tamjid",
-    },
-    // ============== Twitter ============== \\
-    {
-      id: 4,
-      child: (
-        <>
-          Twitter <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/ShahriarSpeaks",
       style: "rounded-br-md",
     },
+    // ============== Twitter ============== \\
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       Twitter <FaTwitter size={30} />
+    //     </>
+    //   ),
+    //   href: "https://twitter.com/ShahriarSpeaks",
+    //   style: "rounded-br-md",
+    // },
   ];
 
   return (

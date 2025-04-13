@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/profile.png"; // Update this path to change the profile pic
+import HeroImage from "../assets/profile-2024.png"; // Update this path to change the profile pic
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -13,16 +13,27 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* ================ Job Title ================ */}
-          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">Analyst &amp; Developer</h2>
+          <h2 className="text-4xl ml-2 mr-2 font-bold text-white">
+            Software Engineer
+          </h2>
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">
-            As an aspiring Data Analyst with a passion for Excel modelling, data analysis, and data visualization, I bring a unique skillset to the table. With a solid understanding of machine learning modelling, I am able to combine my analytical and technical abilities to produce powerful insights from complex data sets. In addition to my data science expertise, I also possess strong web development skills.
+            As a Software Engineer with a passion for building impactful
+            solutions, I specialize in ERP systems, designing and implementing
+            custom tools to automate factory operations like bookkeeping,
+            inventory, and supply chain management, backed by my SQL expertise
+            and experience with Oracle Database. With 3+ years of JavaScript
+            programming experience, I am also proficient in developing web
+            applications using Node.js, React.js, and Next.js. Driven by
+            continuous learning, I am currently exploring modern front-end
+            technologies like TailwindCSS, Three.js, and Framer Motion,
+            alongside diving into iOS development with Swift.
           </p>
 
           <div className="flex space-x-5">
             <Link
-              to="portfolio"
+              to="projects"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
