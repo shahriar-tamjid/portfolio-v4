@@ -19,16 +19,13 @@ const Home = () => {
 
           {/* ================ Bio ================ */}
           <p className="text-white py-4 ml-2 mr-2 max-w-md">
-            As a Software Engineer with a passion for building impactful
-            solutions, I specialize in ERP systems, designing and implementing
-            custom tools to automate factory operations like bookkeeping,
-            inventory, and supply chain management, backed by my SQL expertise
-            and experience with Oracle Database. With 3+ years of JavaScript
-            programming experience, I am also proficient in developing web
-            applications using Node.js, React.js, and Next.js. Driven by
-            continuous learning, I am currently exploring modern front-end
-            technologies like TailwindCSS, Three.js, and Framer Motion,
-            alongside diving into iOS development with Swift.
+            Software Engineer with 3+ years of programming experience building
+            ERP systems and scalable web apps using JavaScript, React.js,
+            Next.js, and Node.js. Skilled in Python-based data analysis (NumPy,
+            Pandas, Matplotlib) and machine learning (Scikit-learn, TensorFlow,
+            PyTorch). Published an IEEE thesis paper and passionate about
+            building AI-driven tools for real-world impact. Currently
+            experimenting with LLMs and multimodal models.
           </p>
 
           <div className="flex space-x-5">
@@ -45,7 +42,7 @@ const Home = () => {
             </Link>
             {/* ==================== Resume ==================== */}
             <a
-              href="/Shahriar_Tamjid_Resume.pdf"
+              href="/Resume_Shahriar_Tamjid.pdf"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
               download={true}
               target="_blank"
