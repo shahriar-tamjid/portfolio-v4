@@ -3,6 +3,7 @@ import disney_plus from "../assets/portfolio/disney_plus.png";
 import fitness_app from "../assets/portfolio/fitness_app.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import nft_marketplace from "../assets/portfolio/nft_marketplace.png";
+import expense_tracker from "../assets/portfolio/expense_tracker.png";
 
 const Portfolio = () => {
   // List the projects inside the array with appropriate properties
@@ -15,21 +16,27 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: fitness_app,
-      demo: "https://shahriar-fitness-club.netlify.app/",
-      code: "https://github.com/shahriar-tamjid/gym_app",
-    },
-    {
-      id: 3,
       src: ecommerce,
       demo: "https://ecommerce-sanity-beige.vercel.app/",
       code: "https://github.com/shahriar-tamjid/ecommerce_sanity",
     },
     {
-      id: 4,
+      id: 3,
       src: nft_marketplace,
       demo: "https://shahriar-nft-marketplace.netlify.app/",
       code: "https://github.com/shahriar-tamjid/nft-marketplace",
+    },
+    {
+      id: 4,
+      src: expense_tracker,
+      demo: "https://tamjid-expense-tracker.vercel.app/",
+      code: "https://github.com/shahriar-tamjid/expense-tracker",
+    },
+    {
+      id: 5,
+      src: fitness_app,
+      demo: "https://shahriar-fitness-club.netlify.app/",
+      code: "https://github.com/shahriar-tamjid/gym_app",
     },
   ];
 
